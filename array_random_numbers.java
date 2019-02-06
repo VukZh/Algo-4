@@ -12,6 +12,9 @@ public class array_random_numbers {
         arr = new int[size];
         for (int i = 0; i < size; i++) {
             arr[i] = (int) (maxnumber * random());
+//            arr[i] = size - i;
+//            arr[i] = i;
+
         }
     }
 
